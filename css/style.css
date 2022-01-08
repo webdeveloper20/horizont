@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  background: #144684;
+  border-bottom: 1px solid rgb(195, 186, 186) !important;
+}
+
+/***********************Navbar*************************************/
+
+.nav-link {
+  font-size: 15px;
+  margin-left: 29px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px !important;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.dropdown-menu {
+  width: 0px !important;
+  border: 1px solid white !important;
+  border-radius: 0px !important;
+  background: #144684 !important;
+  animation-name: atthover;
+  animation-duration: 1s;
+  animation-iteration-count: finite;
+  font-family: "Open Sans", sans-serif;
+}
+.dropdown_home_naddev {
+  margin-top: 15px !important;
+  display: inline-block;
+}
+.dropdown:hover {
+  animation-play-state: running;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-item {
+  color: #fff !important;
+}
+.dropdown-item:hover {
+  background: white !important;
+  color: #000 !important;
+}
+.language_change {
+  width: 0px !important;
+
+  background: #144684 !important;
+}
+
+@keyframes atthover {
+  0% {
+    opacity: 0;
+    margin-top: 30px;
+  }
+  50% {
+    opacity: 1;
+    margin-top: 30px;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+nav.sticky {
+  transition: 0.5s ease-in-out;
+  padding: 5px 0;
+  background: #aaafb5;
+  border-bottom: 2px solid #aaafb5;
+}
+
+/* Home part */
+.dark_bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../img/horizont_bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#hero .container {
+  height: 100vh;
+}
+.btn_margin_top {
+  margin-top: 50%;
+  margin-left: 40%;
+  align-items: center;
+  border: 1px solid white;
+  background: none;
+  font-weight: 600;
+  color: #fff;
+}
+.btn_margin_top:hover {
+  color: #000;
+  background: white;
+}
+/* Our Work */
+.metavers {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/Heliummetavers.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.metavers:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/Heliummetavers.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+.nationaldevelopment {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/nationaldevelopmentcouncil.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.nationaldevelopment:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/nationaldevelopmentcouncil.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+.policydesignlab {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/publicsector.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.policydesignlab:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/publicsector.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+/*  */
+.civicdesigner {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/Civic\ Design.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.civicdesigner:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/Civic\ Design.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+/*  */
+.Commodificationscience {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/commodifcationofscience.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.Commodificationscience:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/commodifcationofscience.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+/*  */
+.cityc {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/city\ c.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.cityc:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/city\ c.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+/*  */
+.regionalallianeforinternet {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/regionalalliance\ for\ internet.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.regionalallianeforinternet:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/regionalalliance\ for\ internet.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+.similitondesigner {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/Simulation\ Design.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.similitondesigner:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/Simulation\ Design.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+.forinitiativecitizens {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/agencyforstrategicinitiayives.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.forinitiativecitizens:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/agencyforstrategicinitiayives.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+.enterperneural {
+  background: linear-gradient(rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.107)),
+    url(../img/Entrepreneurial\ Governance.jpeg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.enterperneural:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.397)),
+    url(../img/Entrepreneurial\ Governance.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+.home_p_nationaldev {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #fff;
+  display: inline-block;
+  padding-top: 5px;
+}
+.home_p_nationaldev:hover {
+  color: #fff;
+}
+.make_civicdesigner {
+  width: 95%;
+
+  font-size: 13px !important;
+  margin-top: 25%;
+  text-align: center;
+  height: 40px;
+  display: inline-block;
+  background: rgba(195, 192, 19, 0.354);
+}
+
+.dropdown-menu_home {
+  width: 100% !important;
+  border: 0 !important;
+  border-radius: 0px !important;
+  background: none !important;
+  animation-name: atthover;
+  animation-duration: 1s;
+  animation-iteration-count: finite;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px;
+}
+.dropdown_civic_engement {
+  font-size: 13px !important;
+}
+
+.dropdown_home:hover {
+  animation-play-state: running;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-item_home {
+  color: #fff !important;
+}
+.dropdown-item_home:hover {
+  background-color: rgba(0, 0, 0, 0.055) !important;
+  color: #fff !important;
+}
+.dropdown_home_naddev {
+  display: inline-block;
+  margin: 10px !important;
+  font-size: 14px !important;
+  letter-spacing: 0px !important;
+}
+
+.dropdown_home_export {
+  margin: 0px !important;
+  padding: 0px !important;
+  /* padding-left: 10px !important; */
+  font-size: 14px !important;
+
+  display: inline-block;
+  margin: 0px !important;
+}
+
+@keyframes atthover {
+  0% {
+    opacity: 0;
+    margin-top: 30px;
+  }
+  50% {
+    opacity: 1;
+    margin-top: 30px;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* contact */
+
+.contact_header {
+  margin-top: 90px !important;
+  color: #144684 !important;
+}
+.contact_h2 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.contact_h6 {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 10px;
+}
+.logotion_ {
+  font-size: 17px;
+  color: #144684;
+  text-decoration: none !important;
+}
+.logotion_ i {
+  font-size: 22px;
+  margin-right: 6px;
+}
+.tel_ {
+  font-size: 17px;
+  color: #144684;
+  text-decoration: none !important;
+}
+.tel_ i {
+  font-size: 22px;
+  margin-right: 6px;
+}
+.email_ {
+  font-size: 17px;
+  color: #144684;
+  text-decoration: none !important;
+}
+.email_ i {
+  font-size: 22px;
+  margin-right: 6px;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid #144684;
+}
+.footer_h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.footer_p {
+  border-top: 1px solid #144684;
+}
+/* Responsiv */
+@media only screen and (max-width: 991px) {
+  .nav-link {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 956px) {
+  .home_p_nationaldev {
+    font-size: 13px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .dropdown_home_export {
+    font-size: 12px !important;
+    outline: linen;
+    display: inline-block;
+  }
+  .home_p_nationaldev {
+    font-size: 12px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 837px) {
+  .home_decriment_px {
+    font-size: 11px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home_p_nationaldev {
+    font-size: 13px;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .dropdown_civic_engement {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .dropdown_civic_engement {
+    margin-left: -5px !important;
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 873px) {
+  .dropdown_civic_engement {
+    font-size: 11px !important;
+    margin-left: -20px !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .btn_margin_top {
+    display: inline-block;
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btn_margin_top {
+    margin-left: 30%;
+    margin-top: 80%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .btn_margin_top {
+    margin-left: 25%;
+    margin-top: 100%;
+  }
+}
